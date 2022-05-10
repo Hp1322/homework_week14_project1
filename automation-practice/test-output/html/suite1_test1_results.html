@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Automation Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Automation Test</h1>
+<p>
+  Test duration: 322.340s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.automation.testsuite.SignPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldLogInSuccessFullyWithValidCredentials
+      </td>
+  <td class="duration">
+    19.130s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on signIn [[ChromeDriver: chrome on WINDOWS (db6e8419227036d63ab92b7ce9bb6dfe)] -&gt; xpath: //a[contains(text(),&apos;Sign in&apos;)]]&lt;br&gt;<br />
+                                Enter email ram1123@gmail.com to email field [[ChromeDriver: chrome on WINDOWS (db6e8419227036d63ab92b7ce9bb6dfe)] -&gt; xpath: //input[@id=&apos;email&apos;]]&lt;br&gt;<br />
+                                Enter password 123456 to email field [[ChromeDriver: chrome on WINDOWS (db6e8419227036d63ab92b7ce9bb6dfe)] -&gt; xpath: //input[@id=&apos;passwd&apos;]]&lt;br&gt;<br />
+                                Clicking on signInButton [[ChromeDriver: chrome on WINDOWS (db6e8419227036d63ab92b7ce9bb6dfe)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                getting signout text from [[ChromeDriver: chrome on WINDOWS (db6e8419227036d63ab92b7ce9bb6dfe)] -&gt; xpath: //header/div[2]/div[1]/div[1]/nav[1]/div[2]/a[1]]&lt;br&gt;<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: The following asserts failed:<br/>
+	not navigate to sign in page expected [sign out] but found [Sign out]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)<br />
+              org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)<br />
+              com.automation.testsuite.SignPageTest.verifyThatUserShouldLogInSuccessFullyWithValidCredentials(SignPageTest.java:53)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automation.testsuite.WomenCategoryPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldAddProductToTheCartSuccessfully
+      </td>
+  <td class="duration">
+    14.191s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Printed Chiffon Dress", "4", "S", "Green"</span><br />
+    
+            <div class="testOutput">
+                        Clicking on woman [[ChromeDriver: chrome on WINDOWS (290d5e942023a664b3cfba50e6ace717)] -&gt; xpath: //header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]]&lt;br&gt;<br />
+                                Selecting Product Printed Chiffon Dress from dropdown [[ChromeDriver: chrome on WINDOWS (290d5e942023a664b3cfba50e6ace717)] -&gt; xpath: //h5//a[@title=&apos;Printed Chiffon Dress&apos;]]&lt;br&gt;<br />
+                                Clearing quantity [[ChromeDriver: chrome on WINDOWS (290d5e942023a664b3cfba50e6ace717)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]]&lt;br&gt;<br />
+                                Enter quantity [[ChromeDriver: chrome on WINDOWS (290d5e942023a664b3cfba50e6ace717)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]] to quantity field [[ChromeDriver: chrome on WINDOWS (290d5e942023a664b3cfba50e6ace717)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]]&lt;br&gt;<br />
+                                Selecting colour Green from dropdown [[ChromeDriver: chrome on WINDOWS (290d5e942023a664b3cfba50e6ace717)] -&gt; xpath: //a[@id=&apos;color_15&apos;]]&lt;br&gt;<br />
+                                Clicking on addToCart [[ChromeDriver: chrome on WINDOWS (290d5e942023a664b3cfba50e6ace717)] -&gt; xpath: //span[contains(text(),&apos;Add to cart&apos;)]]&lt;br&gt;<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.StringIndexOutOfBoundsException: String index out of range: 48</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              java.lang.String.substring(String.java:1963)<br />
+              com.automation.testsuite.WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully(WomenCategoryPageTest.java:46)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldAddProductToTheCartSuccessfully
+      </td>
+  <td class="duration">
+    13.942s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Printed Dress", "3", "L", "Orange"</span><br />
+    
+            <div class="testOutput">
+                        Clicking on woman [[ChromeDriver: chrome on WINDOWS (0bc2e710794d161a979e650d70e89529)] -&gt; xpath: //header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]]&lt;br&gt;<br />
+                                Selecting Product Printed Dress from dropdown [[ChromeDriver: chrome on WINDOWS (0bc2e710794d161a979e650d70e89529)] -&gt; xpath: //body/div[@id=&apos;page&apos;]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[3]/div[1]/div[2]/h5[1]/a[1]]&lt;br&gt;<br />
+                                Clearing quantity [[ChromeDriver: chrome on WINDOWS (0bc2e710794d161a979e650d70e89529)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]]&lt;br&gt;<br />
+                                Enter quantity [[ChromeDriver: chrome on WINDOWS (0bc2e710794d161a979e650d70e89529)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]] to quantity field [[ChromeDriver: chrome on WINDOWS (0bc2e710794d161a979e650d70e89529)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]]&lt;br&gt;<br />
+                                Selecting colour Orange from dropdown [[ChromeDriver: chrome on WINDOWS (0bc2e710794d161a979e650d70e89529)] -&gt; xpath: //a[@id=&apos;color_13&apos;]]&lt;br&gt;<br />
+                                Clicking on addToCart [[ChromeDriver: chrome on WINDOWS (0bc2e710794d161a979e650d70e89529)] -&gt; xpath: //span[contains(text(),&apos;Add to cart&apos;)]]&lt;br&gt;<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.StringIndexOutOfBoundsException: String index out of range: 48</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              java.lang.String.substring(String.java:1963)<br />
+              com.automation.testsuite.WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully(WomenCategoryPageTest.java:46)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldAddProductToTheCartSuccessfully
+      </td>
+  <td class="duration">
+    13.079s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Printed Summer Dress with Price $28.98", "2", "M", "Blue"</span><br />
+    
+            <div class="testOutput">
+                        Clicking on woman [[ChromeDriver: chrome on WINDOWS (9f9e770c7176f589f3f6e20aa5faf6d3)] -&gt; xpath: //header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]]&lt;br&gt;<br />
+                                Selecting Product Printed Summer Dress with Price $28.98 from dropdown [[ChromeDriver: chrome on WINDOWS (9f9e770c7176f589f3f6e20aa5faf6d3)] -&gt; xpath: //body/div[@id=&apos;page&apos;]/div[2]/div[1]/div[3]/div[2]/ul[1]/li[5]/div[1]/div[2]/h5[1]/a[1]]&lt;br&gt;<br />
+                                Clearing quantity [[ChromeDriver: chrome on WINDOWS (9f9e770c7176f589f3f6e20aa5faf6d3)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]]&lt;br&gt;<br />
+                                Enter quantity [[ChromeDriver: chrome on WINDOWS (9f9e770c7176f589f3f6e20aa5faf6d3)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]] to quantity field [[ChromeDriver: chrome on WINDOWS (9f9e770c7176f589f3f6e20aa5faf6d3)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]]&lt;br&gt;<br />
+                                Selecting colour Blue from dropdown [[ChromeDriver: chrome on WINDOWS (9f9e770c7176f589f3f6e20aa5faf6d3)] -&gt; xpath: //a[@id=&apos;color_14&apos;]]&lt;br&gt;<br />
+                                Clicking on addToCart [[ChromeDriver: chrome on WINDOWS (9f9e770c7176f589f3f6e20aa5faf6d3)] -&gt; xpath: //span[contains(text(),&apos;Add to cart&apos;)]]&lt;br&gt;<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>java.lang.StringIndexOutOfBoundsException: String index out of range: 48</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              java.lang.String.substring(String.java:1963)<br />
+              com.automation.testsuite.WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully(WomenCategoryPageTest.java:46)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyUserShouldAddProductToTheCartSuccessfully
+      </td>
+  <td class="duration">
+    24.025s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Blouse", "2", "M", "White"</span><br />
+    
+            <div class="testOutput">
+                        Clicking on woman [[ChromeDriver: chrome on WINDOWS (164a200984f9f2b8a120085a0849e934)] -&gt; xpath: //header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]]&lt;br&gt;<br />
+                                Selecting Product Blouse from dropdown [[ChromeDriver: chrome on WINDOWS (164a200984f9f2b8a120085a0849e934)] -&gt; xpath: //h5//a[@title=&apos;Blouse&apos;]]&lt;br&gt;<br />
+                                Clearing quantity [[ChromeDriver: chrome on WINDOWS (164a200984f9f2b8a120085a0849e934)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]]&lt;br&gt;<br />
+                                Enter quantity [[ChromeDriver: chrome on WINDOWS (164a200984f9f2b8a120085a0849e934)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]] to quantity field [[ChromeDriver: chrome on WINDOWS (164a200984f9f2b8a120085a0849e934)] -&gt; xpath: //input[@id=&apos;quantity_wanted&apos;]]&lt;br&gt;<br />
+                                Selecting colour White from dropdown [[ChromeDriver: chrome on WINDOWS (164a200984f9f2b8a120085a0849e934)] -&gt; xpath: //a[@id=&apos;color_8&apos;]]&lt;br&gt;<br />
+                                Clicking on addToCart [[ChromeDriver: chrome on WINDOWS (164a200984f9f2b8a120085a0849e934)] -&gt; xpath: //span[contains(text(),&apos;Add to cart&apos;)]]&lt;br&gt;<br />
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.StringIndexOutOfBoundsException: String index out of range: 48</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              java.lang.String.substring(String.java:1963)<br />
+              com.automation.testsuite.WomenCategoryPageTest.verifyUserShouldAddProductToTheCartSuccessfully(WomenCategoryPageTest.java:46)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.util.ArrayList.forEach(ArrayList.java:1249)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:808)<br />
+              org.testng.TestRunner.run(TestRunner.java:603)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:429)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:326)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1092)<br />
+              org.testng.TestNG.run(TestNG.java:1060)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.automation.testsuite.CreateAccountPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyThatUserShouldCreateAccountSuccessfully
+      </td>
+  <td class="duration">
+    20.313s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on signIn [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //a[contains(text(),&apos;Sign in&apos;)]]&lt;br&gt;<br />
+                                Enter email Yogi to email field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;email_create&apos;]]&lt;br&gt;<br />
+                                Clicking on createAnAccountButton [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/button[1]/span[1]]&lt;br&gt;<br />
+                                Clicking on title button[[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;id_gender1&apos;]]&lt;br&gt;<br />
+                                Enter firstnameDevto fName field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;customer_firstname&apos;]]&lt;br&gt;<br />
+                                Enter lastNameRajto fName field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;customer_lastname&apos;]]&lt;br&gt;<br />
+                                Enter email to email field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;email&apos;]]&lt;br&gt;<br />
+                                Enter passField12345678 to password field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;passwd&apos;]]&lt;br&gt;<br />
+                                Selecting day5 from dropdown [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //select[@id=&apos;days&apos;]]&lt;br&gt;<br />
+                                Selecting month2 from dropdown [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //select[@id=&apos;months&apos;]]&lt;br&gt;<br />
+                                Selecting year1990 from dropdown [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //select[@id=&apos;years&apos;]]&lt;br&gt;<br />
+                                Clicking on newsletterbox[[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;newsletter&apos;]]&lt;br&gt;<br />
+                                Clicking on receiveOfferBox[[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;optin&apos;]]&lt;br&gt;<br />
+                                Enter fname to fname field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;firstname&apos;]]&lt;br&gt;<br />
+                                Enter lastName to email field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;lastname&apos;]]&lt;br&gt;<br />
+                                Enter companyabc to company field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;company&apos;]]&lt;br&gt;<br />
+                                Enter address15, Jbl to email field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;address1&apos;]]&lt;br&gt;<br />
+                                Enter address10B to email field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;address2&apos;]]&lt;br&gt;<br />
+                                Enter cityRom to city field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;city&apos;]]&lt;br&gt;<br />
+                                Selecting state3 from dropdown [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //select[@id=&apos;id_state&apos;]]&lt;br&gt;<br />
+                                Enter zip12345 to email field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;postcode&apos;]]&lt;br&gt;<br />
+                                Selecting country United States from dropdown [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //select[@id=&apos;id_country&apos;]]&lt;br&gt;<br />
+                                Enter homePhone999990000 to homePhone field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;phone&apos;]]&lt;br&gt;<br />
+                                Enter mPhone9898989898 to mPhone field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;phone_mobile&apos;]]&lt;br&gt;<br />
+                                Enter assignAddress A15,ghb to assignAddress field [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //input[@id=&apos;alias&apos;]]&lt;br&gt;<br />
+                                Clicking on registerButton[[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/form[1]/div[4]/button[1]/span[1]]&lt;br&gt;<br />
+                                getting my Account text from [[ChromeDriver: chrome on WINDOWS (85948e8620bb6a7bb4c8e46a574ab3f3)] -&gt; xpath: //h1[contains(text(),&apos;My account&apos;)]]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automation.testsuite.SignPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  userShouldNavigateToSignInPageSuccessFully
+      </td>
+  <td class="duration">
+    3.067s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on signIn [[ChromeDriver: chrome on WINDOWS (90be21b7d91a66ef6f3490117be4ab32)] -&gt; xpath: //a[contains(text(),&apos;Sign in&apos;)]]&lt;br&gt;<br />
+                                getting authentication text from [[ChromeDriver: chrome on WINDOWS (90be21b7d91a66ef6f3490117be4ab32)] -&gt; xpath: //h1[contains(text(),&apos;Authentication&apos;)]]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyThatUserShouldLogOutSuccessFully
+      </td>
+  <td class="duration">
+    20.245s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on signIn [[ChromeDriver: chrome on WINDOWS (e79daaf4d0b2cc680e81dc978263b1f5)] -&gt; xpath: //a[contains(text(),&apos;Sign in&apos;)]]&lt;br&gt;<br />
+                                Enter email ram1123@gmail.com to email field [[ChromeDriver: chrome on WINDOWS (e79daaf4d0b2cc680e81dc978263b1f5)] -&gt; xpath: //input[@id=&apos;email&apos;]]&lt;br&gt;<br />
+                                Enter password 123456 to email field [[ChromeDriver: chrome on WINDOWS (e79daaf4d0b2cc680e81dc978263b1f5)] -&gt; xpath: //input[@id=&apos;passwd&apos;]]&lt;br&gt;<br />
+                                Clicking on signInButton [[ChromeDriver: chrome on WINDOWS (e79daaf4d0b2cc680e81dc978263b1f5)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                Clicking on signOutLink[[ChromeDriver: chrome on WINDOWS (e79daaf4d0b2cc680e81dc978263b1f5)] -&gt; xpath: //header/div[2]/div[1]/div[1]/nav[1]/div[2]/a[1]]&lt;br&gt;<br />
+                                verifySignInButton text from [[ChromeDriver: chrome on WINDOWS (e79daaf4d0b2cc680e81dc978263b1f5)] -&gt; xpath: //header/div[3]/div[1]/div[1]/div[1]/a[1]/img[1]]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyTheErrorMessageWithInValidCredentials
+      </td>
+  <td class="duration">
+    14.798s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"abcd@gmail.com", "123456", "Authentication failed."</span><br />
+    
+            <div class="testOutput">
+                        Clicking on signIn [[ChromeDriver: chrome on WINDOWS (992663b459fdc4a3cae5a2653403bf1a)] -&gt; xpath: //a[contains(text(),&apos;Sign in&apos;)]]&lt;br&gt;<br />
+                                Enter username and password abcd@gmail.com 123456 to username and password field [[ChromeDriver: chrome on WINDOWS (992663b459fdc4a3cae5a2653403bf1a)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                Enter email abcd@gmail.com to email field [[ChromeDriver: chrome on WINDOWS (992663b459fdc4a3cae5a2653403bf1a)] -&gt; xpath: //input[@id=&apos;email&apos;]]&lt;br&gt;<br />
+                                Enter password 123456 to email field [[ChromeDriver: chrome on WINDOWS (992663b459fdc4a3cae5a2653403bf1a)] -&gt; xpath: //input[@id=&apos;passwd&apos;]]&lt;br&gt;<br />
+                                Clicking on signInButton [[ChromeDriver: chrome on WINDOWS (992663b459fdc4a3cae5a2653403bf1a)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                getting errorMessage text from [[ChromeDriver: chrome on WINDOWS (992663b459fdc4a3cae5a2653403bf1a)] -&gt; xpath: //div[@class=&apos;alert alert-danger&apos;]//li]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyTheErrorMessageWithInValidCredentials
+      </td>
+  <td class="duration">
+    17.479s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"", "123456", "An email address required."</span><br />
+    
+            <div class="testOutput">
+                        Clicking on signIn [[ChromeDriver: chrome on WINDOWS (7f6b9bdc0cc55606404f3ca32fb5fed1)] -&gt; xpath: //a[contains(text(),&apos;Sign in&apos;)]]&lt;br&gt;<br />
+                                Enter username and password&nbsp; 123456 to username and password field [[ChromeDriver: chrome on WINDOWS (7f6b9bdc0cc55606404f3ca32fb5fed1)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                Enter email&nbsp; to email field [[ChromeDriver: chrome on WINDOWS (7f6b9bdc0cc55606404f3ca32fb5fed1)] -&gt; xpath: //input[@id=&apos;email&apos;]]&lt;br&gt;<br />
+                                Enter password 123456 to email field [[ChromeDriver: chrome on WINDOWS (7f6b9bdc0cc55606404f3ca32fb5fed1)] -&gt; xpath: //input[@id=&apos;passwd&apos;]]&lt;br&gt;<br />
+                                Clicking on signInButton [[ChromeDriver: chrome on WINDOWS (7f6b9bdc0cc55606404f3ca32fb5fed1)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                getting errorMessage text from [[ChromeDriver: chrome on WINDOWS (7f6b9bdc0cc55606404f3ca32fb5fed1)] -&gt; xpath: //div[@class=&apos;alert alert-danger&apos;]//li]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyTheErrorMessageWithInValidCredentials
+      </td>
+  <td class="duration">
+    13.861s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"abcd@gmail.com", " ", "Password is required."</span><br />
+    
+            <div class="testOutput">
+                        Clicking on signIn [[ChromeDriver: chrome on WINDOWS (9fca2e6ea65b4461d375d52be0813319)] -&gt; xpath: //a[contains(text(),&apos;Sign in&apos;)]]&lt;br&gt;<br />
+                                Enter username and password abcd@gmail.com&nbsp;&nbsp; to username and password field [[ChromeDriver: chrome on WINDOWS (9fca2e6ea65b4461d375d52be0813319)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                Enter email abcd@gmail.com to email field [[ChromeDriver: chrome on WINDOWS (9fca2e6ea65b4461d375d52be0813319)] -&gt; xpath: //input[@id=&apos;email&apos;]]&lt;br&gt;<br />
+                                Enter password&nbsp;&nbsp; to email field [[ChromeDriver: chrome on WINDOWS (9fca2e6ea65b4461d375d52be0813319)] -&gt; xpath: //input[@id=&apos;passwd&apos;]]&lt;br&gt;<br />
+                                Clicking on signInButton [[ChromeDriver: chrome on WINDOWS (9fca2e6ea65b4461d375d52be0813319)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                getting errorMessage text from [[ChromeDriver: chrome on WINDOWS (9fca2e6ea65b4461d375d52be0813319)] -&gt; xpath: //div[@class=&apos;alert alert-danger&apos;]//li]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifyTheErrorMessageWithInValidCredentials
+      </td>
+  <td class="duration">
+    13.821s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"adfdfgfg", "123456", "Invalid email address."</span><br />
+    
+            <div class="testOutput">
+                        Clicking on signIn [[ChromeDriver: chrome on WINDOWS (ff9fd7da90beb3b6de904268a0e5664a)] -&gt; xpath: //a[contains(text(),&apos;Sign in&apos;)]]&lt;br&gt;<br />
+                                Enter username and password adfdfgfg 123456 to username and password field [[ChromeDriver: chrome on WINDOWS (ff9fd7da90beb3b6de904268a0e5664a)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                Enter email adfdfgfg to email field [[ChromeDriver: chrome on WINDOWS (ff9fd7da90beb3b6de904268a0e5664a)] -&gt; xpath: //input[@id=&apos;email&apos;]]&lt;br&gt;<br />
+                                Enter password 123456 to email field [[ChromeDriver: chrome on WINDOWS (ff9fd7da90beb3b6de904268a0e5664a)] -&gt; xpath: //input[@id=&apos;passwd&apos;]]&lt;br&gt;<br />
+                                Clicking on signInButton [[ChromeDriver: chrome on WINDOWS (ff9fd7da90beb3b6de904268a0e5664a)] -&gt; xpath: //body[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/p[2]/button[1]/span[1]]&lt;br&gt;<br />
+                                getting errorMessage text from [[ChromeDriver: chrome on WINDOWS (ff9fd7da90beb3b6de904268a0e5664a)] -&gt; xpath: //div[@class=&apos;alert alert-danger&apos;]//li]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.automation.testsuite.WomenCategoryPageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifyUserShouldNavigateToWomenCategoryPageSuccessfully
+      </td>
+  <td class="duration">
+    4.348s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on woman [[ChromeDriver: chrome on WINDOWS (2b43cfb6ef0923cbec90ebf598776ba4)] -&gt; xpath: //header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]/a[1]]&lt;br&gt;<br />
+                                getting women Text from [[ChromeDriver: chrome on WINDOWS (2b43cfb6ef0923cbec90ebf598776ba4)] -&gt; xpath: //h2[contains(text(),&apos;Women&apos;)]]&lt;br&gt;<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
